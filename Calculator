@@ -1,0 +1,13 @@
+print("Basic Calculator")
+# ******User inputs
+a = float(input("Enter your first digit:"))
+b = float(input("Enter your second digit:"))
+c = input("Choose what you want to do: +, - *, / = " )
+if c== "+":
+    print("The sum of your first and second digit is:", a + b )
+if c== "-":
+    print("The subtraction of your first and second digit is:", a - b )
+if c== "*":
+    print("The multiplication of your first and second digit is:", a * b )
+if c== "/":
+    print("The division of your first and second digit is:", a / b )
